@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(32, 152, 221);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+    background: rgb(216, 224, 228);
+    padding: 50px 20px;
+    
+}
+h1{
+    text-align: center;
+    color: crimson;
+}
